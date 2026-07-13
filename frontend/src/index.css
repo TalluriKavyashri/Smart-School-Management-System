@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom reusable input style */
+.inputBox {
+  @apply border border-white/30 rounded-xl px-4 py-2 
+         bg-white/20 backdrop-blur-md
+         focus:bg-white/30 shadow-sm outline-none 
+         focus:ring-2 focus:ring-blue-300 transition;
+}
+
+.inputBox {
+  @apply w-full px-4 py-3 bg-white/40 border border-white/30
+         rounded-xl backdrop-blur-lg shadow-sm
+         focus:bg-white/60 focus:ring-2 focus:ring-blue-400 
+         outline-none transition;
+}
+
